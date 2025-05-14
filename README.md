@@ -4,8 +4,10 @@
 This project predicts housing prices in the Boston area using machine learning. It uses a dataset with various features such as crime rate, number of rooms, property tax rate, and more to estimate median home prices. The project includes data preprocessing, feature analysis, model training, and evaluation.
 
 ---
+## Dataset Link
+https://www.kaggle.com/datasets/heptapod/uci-ml-datasets 
 
-## 🚀 Features
+## Features
 
 * Loads and cleans housing data
 * Handles missing values with median imputation
@@ -23,7 +25,7 @@ This project predicts housing prices in the Boston area using machine learning. 
 
 ---
 
-## 🧰 Technologies Used
+## Technologies Used
 
 * **Python**
 * **Pandas** – Data manipulation
@@ -35,7 +37,7 @@ This project predicts housing prices in the Boston area using machine learning. 
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 boston_housing_project/
@@ -47,17 +49,7 @@ boston_housing_project/
 
 ---
 
-## ▶️ How to Run
-
-1. Clone the repo or upload notebook to Google Colab.
-2. Make sure your dataset is uploaded to Google Drive.
-3. Update the `csv_path` in the notebook to match your Drive location.
-4. Run the notebook cells step by step.
-5. Use the final model for predictions or save it as a `.pkl` file.
-
----
-
-## 📈 Sample Results
+## Sample Results
 
 *Example output (R² Score):* `0.73`
 *Mean Absolute Error:* `3.2`
@@ -65,7 +57,7 @@ boston_housing_project/
 
 ---
 
-## 🛠 Future Improvements
+## Future Improvements
 
 * Add more models like Random Forest or XGBoost
 * Implement hyperparameter tuning
